@@ -1,8 +1,21 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /About/
 ---
-This is the website for a learning seminar on Lean held at the University of Amsterdam during the fall semester of 2024. During the seminar we plan to follow these notes of Kevin Buzzard:
+{{content
+This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+
+You can find the source code for Minima at GitHub:
+[jekyll][jekyll-organization] 
+[minima](https://github.com/jekyll/minima)
+
+You can find the source code for Jekyll at GitHub:
+[jekyll][jekyll-organization] /
+[jekyll](https://github.com/jekyll/jekyll)
 
 
+[jekyll-organization]: https://github.com/jekyll
+
+
+}}
