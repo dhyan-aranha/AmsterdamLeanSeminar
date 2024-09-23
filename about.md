@@ -1,21 +1,16 @@
 ---
 layout: page
 title: About
-permalink: /About/
+permalink: /about/
 ---
-{{content
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] 
-[minima](https://github.com/jekyll/minima)
+This website is dedicated to the Lean learning seminar at the University of Amsterdam during the fall of 2024. Roughly we will be following these lecture notes of Kevin Buzzard:
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+[Formalising Mathematics](https://www.ma.imperial.ac.uk/~buzzard/xena/formalising-mathematics-2024/Introduction/introduction.html).
 
+Please see the section [Installing Lean](https://www.ma.imperial.ac.uk/~buzzard/xena/formalising-mathematics-2024/Introduction/install.html), for information on installing Lean4 on your machine. It will also be helpful to download and install the [course repository](https://github.com/ImperialCollegeLondon/formalising-mathematics-2024/), for this you will need to install git on your computer. 
 
-[jekyll-organization]: https://github.com/jekyll
+Logistics:
 
+We will meet every Monday from 3 - 5 pm in room F3.20 in the KdVI building. If you have futher questions please don't hesitate to contact  me at: d.v.aranha at uva.nl.
 
-}}
