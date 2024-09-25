@@ -9,7 +9,7 @@ Here are some useful links and references for our seminar:
 
 [Mathlib](https://leanprover-community.github.io/mathlib4_docs/)
 
-[Theorem Proving in Lean](https://leanprover.github.io/theorem_proving_in_lean/): This uses Lean 3, in our seminar we will work in Lean 4. This reference is here because it gets into what is going on "under the hood" of lean.
+[Theorem Proving in Lean](https://lean-lang.org/theorem_proving_in_lean4/title_page.html): This reference is here because it gets into what is going on "under the hood" of lean.
 
 [Mathematics in Lean textbook](https://leanprover-community.github.io/mathematics_in_lean/)
 
