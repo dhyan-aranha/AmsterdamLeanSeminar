@@ -105,7 +105,7 @@ would prove the statement.
       |a n + b n - (t + u)| = |a n - t + (b n - u)| := by rw [add_sub_add_comm]
                           _ ≤ |a n - t| + |b n - u| := abs_add _ _
                           _ < ε/2 + ε/2 := by linarith
-                          _ = ε 
+                          _ = ε := by linarith
 ```
 Through Lenny's code we also learned about a new tactic called <b> calc </b> and a very useful website called [moogle](https://www.moogle.ai) which is a search tool for mathlib, which for example can help you locate the triangle inequality!
 
