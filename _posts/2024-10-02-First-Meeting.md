@@ -23,11 +23,11 @@ The notation for this is:
 which should be read as $$x$$ is a term of type $$X$$. This excludes the junk theorems from above from our theory because it longer makes sence to ask, for example, if $$\mathbb{R} \in \pi$$. 
 
 
-In Lean there is hierarchy of types as follows: At the top there is a chain of "type universes":
+In Lean there is a hierarchy of types as follows: At the top there is a chain of "type universes":
 
 $$ \text{Type} : \text{Type 1}, \text{Type 1} : \text{Type 2}, ....$$
 
-Things like the real and natural numbers which are themselves types are encoded as
+Things like the real and natural numbers which are themselves types are encoded as terms in $$\text{Type}$$:
 
 $$\mathbf{R}$$ : Type, $$\mathbf{N}$$ : Type, ...
 
@@ -37,13 +37,13 @@ $$\pi$$ : $$\mathbf{R}$$, $$3$$ : $$\mathbf{N}$$,...
 
 Another feature of type theory is that there is the type
 
-$$ \text{Prop} : \text{Type} $$
+$$ \text{Prop} : \text{Type} $$.
 
-the terms of $$\text{Prop}$$ are assertions which themselves are types that have terms which are their proofs. For example, the statement of the fermat's last theorem (FLT) is a term in Prop:
+The terms of $$\text{Prop}$$ are <em> assertions </em> which themselves are types that have terms which are their <em>proofs</em>. For example, the statement of the fermat's last theorem (FLT) is a term in $$\text{Prop}$$:
 
 $$\text{FLT} : \text{Prop}$$
 
-the terms of $$\text{Flt}$$ are its proofs. A proposition is <em> true </em> if and only if it has a term i.e. a proof. When lean compiles it treats all proofs of a proposition as equal via the axiom of of <em> proof irrelevance </em> which states:
+and the terms of $$\text{Flt}$$ are its proofs. A proposition is <em> true </em> if and only if it has a term i.e. a proof. When Lean compiles it treats all proofs of a proposition as equal via the axiom of of <em> proof irrelevance </em> which states:
 
 <center> If p,q : P : Prop, then p = q. </center>
 
