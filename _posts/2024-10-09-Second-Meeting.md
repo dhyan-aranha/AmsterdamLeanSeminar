@@ -14,7 +14,7 @@ def TendsTo (a : ℕ → ℝ) (t : ℝ) : Prop :=
 
 The first problem we discussed was to formalize the proof of the following lemma:
 
-Lemma: If $$\{ a_n\}_n $$ converges to $$t$$ then $$ \{ a_n + c\}_n $$ converves to $$t+c$$. 
+Lemma: If $$\{ a_n\}_n $$ converges to $$t$$ then $$ \{ a_n + c\}_n $$ converges to $$t+c$$. 
 
 Using, TendsTo, we can formalize this statement as 
 
