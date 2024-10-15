@@ -9,6 +9,8 @@ Here are some useful links and references for our seminar:
 
 [Mathlib](https://leanprover-community.github.io/mathlib4_docs/)
 
+[The Informal Formalization Seminar in Utrecht](https://jcommelin.github.io/informal-formalization-seminar/)
+
 [Theorem Proving in Lean](https://lean-lang.org/theorem_proving_in_lean4/title_page.html): This reference is here because it gets into what is going on "under the hood" of lean.
 
 [Mathematics in Lean textbook](https://leanprover-community.github.io/mathematics_in_lean/)
